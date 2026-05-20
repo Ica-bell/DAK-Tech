@@ -1,0 +1,175 @@
+.shopee-cart-wrapper 
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.cart-page-header h2 
+{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-grid-header, .cart-item-row, .cart-footer 
+{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Nền đen mờ cho hợp DAK Tech */
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.cart-item-row 
+{
+    background: rgba(255, 255, 255, 0.05); /* Cho nó sáng hơn cái nền xíu */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.2s;
+}
+
+.cart-item-row:hover 
+{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Kích thước các cột y hệt Shopee */
+.col-checkbox { width: 5%; display: flex; justify-content: center; }
+.col-product { width: 40%; display: flex; align-items: center; gap: 15px; }
+.col-price { width: 15%; text-align: center; color: #ccc;}
+.col-quantity { width: 15%; display: flex; justify-content: center; }
+.col-total { width: 15%; text-align: center; color: #ee4d2d; font-weight: bold; }
+.col-action { width: 10%; text-align: center; }
+
+/* Hình và tên sản phẩm */
+.col-product img 
+{ 
+    width: 80px; height: 80px; 
+    object-fit: contain; 
+    background: white; 
+    padding: 5px; 
+    border-radius: 4px; 
+}
+.col-product .prod-name 
+{ 
+    font-size: 15px;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+}
+
+.qty-controls 
+{ 
+    display: flex; align-items: center; 
+    border: 1px solid #666; border-radius: 4px; 
+    overflow: hidden;
+}
+.qty-controls button 
+{ 
+    background: rgba(255,255,255,0.1); 
+    border: none; color: white; 
+    width: 32px; height: 32px; 
+    cursor: pointer; transition: 0.2s;
+}
+.qty-controls button:hover { background: rgba(255,255,255,0.2); }
+
+.qty-controls input 
+{ 
+    width: 50px; height: 32px; 
+    text-align: center; border: none; 
+    background: transparent; color: white; 
+    border-left: 1px solid #666; border-right: 1px solid #666;
+}
+
+/* Nút xóa */
+.btn-delete-item 
+{ 
+    cursor: pointer; transition: color 0.2s; 
+}
+.btn-delete-item:hover 
+{ 
+    color: #ee4d2d;
+}
+
+.cart-footer 
+{ 
+    position: sticky; 
+    bottom: 0; 
+    z-index: 100;
+    justify-content: space-between; 
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255 255 255/0.5);
+}
+.footer-left 
+{ 
+    display: flex; align-items: center; 
+}
+
+#dak-footer 
+{ 
+    padding-top: 20px
+}
+
+#btn-delete-selected 
+{ 
+    margin-left: 20px; 
+    cursor: pointer; 
+}
+
+#btn-delete-selected:hover 
+{ 
+    color: #ee4d2d; 
+    text-decoration: underline;
+}
+
+.col-checkout-info 
+{ 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.total-wrapper 
+{
+    font-size: 16px; 
+}
+
+#final-total-price 
+{ 
+    font-size: 26px; 
+    color: #ee4d2d; 
+    font-weight: bold; 
+    margin-left: 10px;
+}
+
+#btn-checkout-shoopee 
+{ 
+    background: #ee4d2d; 
+    color: white; 
+    border: none; 
+    padding: 12px 35px; 
+    font-size: 18px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background 0.3s;
+}
+
+#btn-checkout-shoopee:hover 
+{ 
+    background: #d73d22; 
+}
+
+input[type="checkbox"] 
+{ 
+    transform: scale(1.5); cursor: pointer;
+}
+
+#dak-LH
+{
+    right: 100px !important;
+}

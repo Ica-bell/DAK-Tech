@@ -1,0 +1,59 @@
+.video-quangcao 
+{
+    position: absolute;
+    top: 157px;
+    z-index: 1;
+    right: 0px;
+}
+
+.video-quangcao-main
+{
+    margin: 20px auto;
+    display: block;
+    z-index: 1;
+}
+
+.sale
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    color: white;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    width: 195px;
+    height: 150px;
+    transform: translate(40px, 0px);
+}
+
+.card-img-top
+{
+    width: 175px;
+    padding: 5px;
+    transform: translate(10px, 15px);
+}
+
+.card-text
+{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.card-title
+{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}

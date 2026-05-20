@@ -1,0 +1,158 @@
+header .header-brand #login+signup-link, .login-signup
+{
+    text-decoration: none;
+    transform: translate(245px, 10px) !important;
+}
+
+header span.user-icon 
+{   
+    font-size: 18px;
+    
+    border: none;
+    height: 25px;
+    width: 21px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+header span.login-signup
+{
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+header .name-TH
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(15px, 7px);
+    user-select: none;
+}
+
+header .search-input
+{
+    transform: translateY(2px) !important;
+}
+
+header button.search-button
+{
+    transform: translate(500px, 9px) !important;
+}
+
+header .user
+{
+    transform: translate(550px, 10px) !important;
+}
+
+main
+{
+    transform: translateY(-17px) !important;
+}
+
+main .btn-icon
+{
+    user-select: none;
+}
+
+footer
+{
+    transform: translateY(3px) !important;
+}
+
+.auth-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+}
+
+#login-form, #signup-form
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    color: white
+}
+
+table .blank-row
+{
+    opacity: 0;
+}
+
+table tr td.head
+{
+    transform: translateX(30%);
+}
+
+table tr td.login-button, table tr td.signup-button
+{
+    transform: translateX(57%);
+}
+
+table tr td.another-choice
+{
+    font-size: 20px;
+    font-style: italic;
+    transform: translateY(3px);
+}
+
+table tr td.another-choice a
+{
+    color: #007BFF !important;
+    text-decoration: underline;
+}
+
+input[type="email"], input[type="password"], input#signup-name
+{
+    border-radius: 14px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    transform: scale(0.98);
+    margin-bottom: 10px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input#name-signup:focus
+{
+    outline: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transform: none;
+}
+
+button#login-button, button#signup-button
+{
+    border-radius: 14px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #0056b3;
+    transition: all 0.2s ease;
+}
+
+button#login-button:active, button#signup-button:active
+{
+    transform: translate(3px, 3px);
+    box-shadow: none;
+    border: 1px solid #0056b3;
+}
+
+#dak-LH
+{
+    right: 100px !important
+}

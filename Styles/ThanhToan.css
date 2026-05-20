@@ -1,0 +1,199 @@
+.checkout-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: sans-serif;
+}
+
+.checkout-section {
+    background: rgba(128 128 128 / 0.3); /* Màu nền đen xám y hệt Shopee Dark Mode */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 24px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+/* KHỐI ĐỊA CHỈ NÈ */
+.address-section {
+    position: relative;
+    padding-top: 28px;
+}
+.stripe-border {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px; /* Cho dày lên xíu nhìn cho rõ 3 màu nha */
+    background-image: repeating-linear-gradient(
+        45deg, 
+        #1c0c3f, 
+        #1c0c3f 30px, 
+        transparent 30px, 
+        transparent 40px, 
+        #3c1053 40px, 
+        #3c1053 70px, 
+        transparent 70px, 
+        transparent 80px,
+        #ad5389 80px,
+        #ad5389 110px,
+        transparent 110px,
+        transparent 120px
+    );
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.address-header {
+    color: #ee4d2d;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.address-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.badge-default {
+    border: 1px solid #ee4d2d;
+    color: #ee4d2d;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+.btn-change {
+    color: #4080ee;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-change:hover { text-decoration: underline; }
+
+/* KHỐI SẢN PHẨM */
+.product-header-grid {
+    display: flex;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+.col-prod { width: 55%; }
+.col-price { width: 15%; text-align: center; }
+.col-qty { width: 15%; text-align: center; }
+.col-total { width: 15%; text-align: right; }
+
+.shop-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mall-badge {
+    background-color: #d0011b;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 2px;
+}
+
+/* Dòng item */
+.checkout-item-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checkout-item-row img {
+    width: 50px; height: 50px;
+    object-fit: contain;
+    background: white;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.prod-name-co {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Lời nhắn & Vận chuyển */
+.shipping-message-row {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255,0.02);
+    padding: 20px;
+    border-top: 1px dashed rgba(255,255,255,0.1);
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+.message-box {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.message-box input {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 2px;
+    width: 70%;
+}
+.shipping-info { width: 35%; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 20px;}
+.shipping-change { width: 10%; text-align: center;}
+.shipping-cost { width: 15%; text-align: right; }
+
+.section-total-row {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.text-orange { color: #ee4d2d; font-size: 20px; font-weight: bold; margin-left: 10px;}
+
+/* TỔNG KẾT CUỐI CÙNG */
+.summary-section {
+    background: rgba(128 128 128 / 0.3);
+    padding: 30px 24px;
+}
+.summary-details {
+    width: 40%;
+    margin-left: auto;
+}
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #bbb;
+}
+.final-row { align-items: center; }
+.final-price {
+    font-size: 28px;
+    color: #ee4d2d;
+    font-weight: bold;
+}
+.checkout-action-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.term-text { font-size: 14px; color: #bbb; }
+.term-text a { color: #4080ee; text-decoration: none; }
+#btn-place-order {
+    background: #ee4d2d;
+    color: white;
+    border: none;
+    width: 210px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#btn-place-order:hover { background: #d73d22; }
+
+#dak-LH
+{
+    right: 100px !important
+}

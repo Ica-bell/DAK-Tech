@@ -1,0 +1,111 @@
+header input.search-input
+{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    transform: translateY(0) !important;
+    margin-left: 90px;
+    width: 450px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+header button.search-button
+{
+    background-color: white;
+    border: none;
+    transform: translate(510px, 7px) !important;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    padding: 5px;
+}
+
+main 
+{
+    width: 80%;
+    margin: 20px auto -65px auto !important;
+    height: 150%;
+    transform: translateY(-17px)!important;
+    min-height: 104vh;
+    background-color: rgba(255, 255, 255, 0.158);
+    position: relative;
+}
+
+main .sp-title-all
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p.sp-title
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto 20px auto;
+    padding-left: 15px
+}
+
+main .sp-item
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto 20px auto;
+    padding-left: 10px
+}
+
+.card
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    color: white;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 200px;
+    transform: translate(20px, 0px);
+}
+
+.card-img-top
+{
+    width: 175px;
+    padding: 5px;
+    transform: translate(30px, 15px);
+}
+
+.card-text
+{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.card-title
+{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.GiaoDien-ThongBao
+{
+    position: fixed !important;
+}
+
+#dak-LH
+{
+    right: 100px !important
+}

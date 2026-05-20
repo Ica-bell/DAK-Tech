@@ -1,0 +1,63 @@
+/* =========================================
+   CSS CHO TRANG GIỚI THIỆU (DAK TECH)
+========================================= */
+main
+{
+    transform: translateY(-20px) !important;
+}
+
+/* Hiệu ứng màu nền Gradient theo dải màu nhận diện DAK Tech */
+.hero-gioi-thieu {
+    background: linear-gradient(135deg, #1c0c3f 0%, #3c1053 50%, #ad5389 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Chữ phát sáng Neon */
+.text-cyan {
+    color: #00e5ff !important;
+    text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+}
+
+/* Nút bấm có viền sáng glow */
+.glow-btn {
+    box-shadow: 0 0 15px rgba(23, 162, 184, 0.4);
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border-width: 2px;
+}
+.glow-btn:hover {
+    box-shadow: 0 0 25px rgba(23, 162, 184, 0.9);
+    transform: translateY(-2px);
+    background-color: #17a2b8;
+    color: white !important;
+}
+
+/* Hiệu ứng zoom ảnh mượt mà */
+.hover-zoom {
+    transition: transform 0.4s ease;
+    border: 2px solid rgba(0, 229, 255, 0.2);
+}
+.hover-zoom:hover {
+    transform: scale(1.05);
+    border-color: rgba(0, 229, 255, 0.8);
+}
+
+/* Thẻ (Card) 3 giá trị cốt lõi */
+.card-gioi-thieu {
+    background: rgba(30, 30, 40, 0.7) !important;
+    backdrop-filter: blur(8px); /* Làm mờ kính xịn xò */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: default;
+    border-width: 2px;
+    border-radius: 16px;
+}
+.card-gioi-thieu:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+.icon-gioi-thieu {
+    font-size: 3.5rem;
+    line-height: 1;
+}
